@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-N5I6HRK",
+    "children" : [ {
+      "name" : "6100@DESKTOP-N5I6HRK.main(1)",
+      "children" : [ {
+        "name" : "1 - Расчет процентов по вкладам",
+        "uid" : "c654a316d2b5bc77",
+        "parentUid" : "68c3500003f2f3f13e8f6dafae39ec89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564272000854,
+          "stop" : 1564272014175,
+          "duration" : 13321
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2 - Расчет процентов по вкладам",
+        "uid" : "d72370c2c5a4a154",
+        "parentUid" : "68c3500003f2f3f13e8f6dafae39ec89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564272014473,
+          "stop" : 1564272026422,
+          "duration" : 11949
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68c3500003f2f3f13e8f6dafae39ec89"
+    } ],
+    "uid" : "4e824831ea695bbee701412b322d3b67"
+  } ]
+}

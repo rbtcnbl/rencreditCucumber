@@ -1,0 +1,254 @@
+{
+  "uid" : "c654a316d2b5bc77",
+  "name" : "1 - Расчет процентов по вкладам",
+  "fullName" : "Вклады: 1 - Расчет процентов по вкладам",
+  "historyId" : "f8561711b5f504670ab2bd01d1a40560",
+  "time" : {
+    "start" : 1564272000854,
+    "stop" : 1564272014175,
+    "duration" : 13321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "BaseSteps.startScenario()",
+    "time" : {
+      "start" : 1564272000860,
+      "stop" : 1564272009900,
+      "duration" : 9040
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "*  выбран пункт меню \"Вклады\"",
+      "time" : {
+        "start" : 1564272009903,
+        "stop" : 1564272011637,
+        "duration" : 1734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  выбрана валюта \"Рубли\"",
+      "time" : {
+        "start" : 1564272011638,
+        "stop" : 1564272011789,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  поле \"Сумма вклада\" заполняется значением суммы \"300000\"",
+      "time" : {
+        "start" : 1564272011790,
+        "stop" : 1564272012002,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  выпадающий список \"На срок\" заполняется значением \"6\"",
+      "time" : {
+        "start" : 1564272012003,
+        "stop" : 1564272012096,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  поле \"Ежемесячное пополнение\" заполняется значением \"50000\"",
+      "time" : {
+        "start" : 1564272012096,
+        "stop" : 1564272012245,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  выполнено нажатие на \"Ежемесячная капитализация\"",
+      "time" : {
+        "start" : 1564272012245,
+        "stop" : 1564272012582,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  поле  Ставка на 6 месяцев  будет иметь значение  \"6.75%\"",
+      "time" : {
+        "start" : 1564272012582,
+        "stop" : 1564272013297,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  к снятию через 6 месяцев -  \"564 398,21\"",
+      "time" : {
+        "start" : 1564272013297,
+        "stop" : 1564272013331,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  пополнение за 6 месяцев -  \"250 000\"",
+      "time" : {
+        "start" : 1564272013331,
+        "stop" : 1564272013362,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "*  начислено -  \"14 398,21\"",
+      "time" : {
+        "start" : 1564272013362,
+        "stop" : 1564272013394,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "BaseSteps.afterMethod(Scenario)",
+    "time" : {
+      "start" : 1564272013395,
+      "stop" : 1564272014162,
+      "duration" : 767
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N5I6HRK"
+  }, {
+    "name" : "thread",
+    "value" : "6100@DESKTOP-N5I6HRK.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вклады"
+  }, {
+    "name" : "story",
+    "value" : "1 - Расчет процентов по вкладам"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Вклады"
+  }, {
+    "name" : "suite",
+    "value" : "Вклады"
+  }, {
+    "name" : "testClass",
+    "value" : "1 - Расчет процентов по вкладам"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/deposit.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "web" ]
+  },
+  "source" : "c654a316d2b5bc77.json",
+  "parameterValues" : [ ]
+}

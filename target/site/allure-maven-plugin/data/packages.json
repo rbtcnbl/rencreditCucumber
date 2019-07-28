@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.Вклады",
+    "children" : [ {
+      "name" : "1 - Расчет процентов по вкладам",
+      "uid" : "c654a316d2b5bc77",
+      "parentUid" : "2026bb8c3b69d8238c625e4b6a0bbe0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564272000854,
+        "stop" : 1564272014175,
+        "duration" : 13321
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "2 - Расчет процентов по вкладам",
+      "uid" : "d72370c2c5a4a154",
+      "parentUid" : "2026bb8c3b69d8238c625e4b6a0bbe0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564272014473,
+        "stop" : 1564272026422,
+        "duration" : 11949
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.Вклады"
+  } ]
+}

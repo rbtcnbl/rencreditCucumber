@@ -1,0 +1,11 @@
+ru\steps\MainSteps.class
+ru\pages\MainPage.class
+ru\pages\ContributionsPage.class
+ru\steps\CheckSteps.class
+ru\pages\CheckPage.class
+ru\annotation\FieldName.class
+ru\pages\BaseObjectPage.class
+ru\steps\BaseSteps.class
+ru\util\TestProperties.class
+ru\util\DriverManager.class
+ru\steps\ContributionsSteps.class

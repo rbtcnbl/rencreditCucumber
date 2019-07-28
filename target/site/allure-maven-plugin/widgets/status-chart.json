@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c654a316d2b5bc77",
+  "name" : "1 - Расчет процентов по вкладам",
+  "time" : {
+    "start" : 1564272000854,
+    "stop" : 1564272014175,
+    "duration" : 13321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d72370c2c5a4a154",
+  "name" : "2 - Расчет процентов по вкладам",
+  "time" : {
+    "start" : 1564272014473,
+    "stop" : 1564272026422,
+    "duration" : 11949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
